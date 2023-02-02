@@ -5,7 +5,7 @@ edition = "2021"
 rust-version = "1.65"
 
 [features]
-default = ["fips"]
+default = []
 gperftools = ["dep:gperftools"]
 console = ["dep:console-subscriber"]
 fips = ["boring/fips", "hyper-boring/fips", "tokio-boring/fips"]
